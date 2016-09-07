@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A7AD03161D7FCB2C004E1423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD03151D7FCB2C004E1423 /* AppDelegate.swift */; };
-		A7AD03181D7FCB2C004E1423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD03171D7FCB2C004E1423 /* ViewController.swift */; };
 		A7AD031B1D7FCB2C004E1423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AD03191D7FCB2C004E1423 /* Main.storyboard */; };
 		A7AD031D1D7FCB2C004E1423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AD031C1D7FCB2C004E1423 /* Assets.xcassets */; };
 		A7AD03201D7FCB2C004E1423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AD031E1D7FCB2C004E1423 /* LaunchScreen.storyboard */; };
 		A7AD032B1D7FCB2D004E1423 /* TacoPOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD032A1D7FCB2D004E1423 /* TacoPOPTests.swift */; };
+		A7AD033C1D7FCD40004E1423 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD033B1D7FCD40004E1423 /* MainVC.swift */; };
+		A7AD033E1D7FCF04004E1423 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD033D1D7FCF04004E1423 /* DropShadow.swift */; };
+		A7AD03401D7FCFE0004E1423 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD033F1D7FCFE0004E1423 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,6 @@
 /* Begin PBXFileReference section */
 		A7AD03121D7FCB2C004E1423 /* TacoPOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoPOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AD03151D7FCB2C004E1423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7AD03171D7FCB2C004E1423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7AD031A1D7FCB2C004E1423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7AD031C1D7FCB2C004E1423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7AD031F1D7FCB2C004E1423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,9 @@
 		A7AD03261D7FCB2D004E1423 /* TacoPOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoPOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AD032A1D7FCB2D004E1423 /* TacoPOPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoPOPTests.swift; sourceTree = "<group>"; };
 		A7AD032C1D7FCB2D004E1423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AD033B1D7FCD40004E1423 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A7AD033D1D7FCF04004E1423 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		A7AD033F1D7FCFE0004E1423 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,12 @@
 		A7AD03141D7FCB2C004E1423 /* TacoPOP */ = {
 			isa = PBXGroup;
 			children = (
-				A7AD03151D7FCB2C004E1423 /* AppDelegate.swift */,
-				A7AD03171D7FCB2C004E1423 /* ViewController.swift */,
-				A7AD03191D7FCB2C004E1423 /* Main.storyboard */,
-				A7AD031C1D7FCB2C004E1423 /* Assets.xcassets */,
-				A7AD031E1D7FCB2C004E1423 /* LaunchScreen.storyboard */,
-				A7AD03211D7FCB2C004E1423 /* Info.plist */,
+				A7AD033A1D7FCC17004E1423 /* Extensions */,
+				A7AD03391D7FCC10004E1423 /* Protocols */,
+				A7AD03371D7FCBF6004E1423 /* Model */,
+				A7AD03361D7FCBC4004E1423 /* View */,
+				A7AD03351D7FCBBC004E1423 /* Controller */,
+				A7AD03381D7FCBFD004E1423 /* Resources */,
 			);
 			path = TacoPOP;
 			sourceTree = "<group>";
@@ -94,6 +98,56 @@
 				A7AD032C1D7FCB2D004E1423 /* Info.plist */,
 			);
 			path = TacoPOPTests;
+			sourceTree = "<group>";
+		};
+		A7AD03351D7FCBBC004E1423 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7AD03151D7FCB2C004E1423 /* AppDelegate.swift */,
+				A7AD033B1D7FCD40004E1423 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A7AD03361D7FCBC4004E1423 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7AD03191D7FCB2C004E1423 /* Main.storyboard */,
+				A7AD031E1D7FCB2C004E1423 /* LaunchScreen.storyboard */,
+				A7AD033F1D7FCFE0004E1423 /* HeaderView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A7AD03371D7FCBF6004E1423 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A7AD03381D7FCBFD004E1423 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7AD031C1D7FCB2C004E1423 /* Assets.xcassets */,
+				A7AD03211D7FCB2C004E1423 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A7AD03391D7FCC10004E1423 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A7AD033D1D7FCF04004E1423 /* DropShadow.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		A7AD033A1D7FCC17004E1423 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7AD03181D7FCB2C004E1423 /* ViewController.swift in Sources */,
 				A7AD03161D7FCB2C004E1423 /* AppDelegate.swift in Sources */,
+				A7AD033E1D7FCF04004E1423 /* DropShadow.swift in Sources */,
+				A7AD033C1D7FCD40004E1423 /* MainVC.swift in Sources */,
+				A7AD03401D7FCFE0004E1423 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
