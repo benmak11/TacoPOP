@@ -37,7 +37,8 @@ class MainVC: UIViewController, DataServiceDelegate {
     }
     
     func deliciousTacoDataLoaded() {
-        print("Delicious taco data loaded")
+        //print("Delicious taco data loaded")
+        collectionView.reloadData()
     }
 
 }
@@ -71,6 +72,9 @@ extension MainVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
+        if let cell = collectionView.cellForItem(at: indexPath) as? TacoCell {
+            cell.shake()
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
