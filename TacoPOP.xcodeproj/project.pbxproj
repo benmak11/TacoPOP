@@ -22,6 +22,7 @@
 		A7AD034A1D7FDB63004E1423 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD03491D7FDB63004E1423 /* ReusableView.swift */; };
 		A7AD034C1D7FDBE8004E1423 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD034B1D7FDBE8004E1423 /* NibLoadableView.swift */; };
 		A7AD034E1D7FDC4E004E1423 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD034D1D7FDC4E004E1423 /* UICollectionView+Ext.swift */; };
+		A7AD03501D7FE6A4004E1423 /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD034F1D7FE6A4004E1423 /* MutableCollection+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		A7AD03491D7FDB63004E1423 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		A7AD034B1D7FDBE8004E1423 /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		A7AD034D1D7FDC4E004E1423 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		A7AD034F1D7FE6A4004E1423 /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				A7AD034D1D7FDC4E004E1423 /* UICollectionView+Ext.swift */,
+				A7AD034F1D7FE6A4004E1423 /* MutableCollection+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7AD03471D7FD661004E1423 /* TacoCell.swift in Sources */,
+				A7AD03501D7FE6A4004E1423 /* MutableCollection+Ext.swift in Sources */,
 				A7AD03161D7FCB2C004E1423 /* AppDelegate.swift in Sources */,
 				A7AD033E1D7FCF04004E1423 /* DropShadow.swift in Sources */,
 				A7AD034C1D7FDBE8004E1423 /* NibLoadableView.swift in Sources */,
