@@ -19,6 +19,9 @@
 		A7AD03441D7FD3E2004E1423 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD03431D7FD3E2004E1423 /* DataService.swift */; };
 		A7AD03471D7FD661004E1423 /* TacoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD03451D7FD661004E1423 /* TacoCell.swift */; };
 		A7AD03481D7FD661004E1423 /* TacoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7AD03461D7FD661004E1423 /* TacoCell.xib */; };
+		A7AD034A1D7FDB63004E1423 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD03491D7FDB63004E1423 /* ReusableView.swift */; };
+		A7AD034C1D7FDBE8004E1423 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD034B1D7FDBE8004E1423 /* NibLoadableView.swift */; };
+		A7AD034E1D7FDC4E004E1423 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD034D1D7FDC4E004E1423 /* UICollectionView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		A7AD03431D7FD3E2004E1423 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A7AD03451D7FD661004E1423 /* TacoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TacoCell.swift; sourceTree = "<group>"; };
 		A7AD03461D7FD661004E1423 /* TacoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TacoCell.xib; sourceTree = "<group>"; };
+		A7AD03491D7FDB63004E1423 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		A7AD034B1D7FDBE8004E1423 /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		A7AD034D1D7FDC4E004E1423 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				A7AD033D1D7FCF04004E1423 /* DropShadow.swift */,
+				A7AD03491D7FDB63004E1423 /* ReusableView.swift */,
+				A7AD034B1D7FDBE8004E1423 /* NibLoadableView.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -158,6 +166,7 @@
 		A7AD033A1D7FCC17004E1423 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A7AD034D1D7FDC4E004E1423 /* UICollectionView+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -271,6 +280,9 @@
 				A7AD03471D7FD661004E1423 /* TacoCell.swift in Sources */,
 				A7AD03161D7FCB2C004E1423 /* AppDelegate.swift in Sources */,
 				A7AD033E1D7FCF04004E1423 /* DropShadow.swift in Sources */,
+				A7AD034C1D7FDBE8004E1423 /* NibLoadableView.swift in Sources */,
+				A7AD034E1D7FDC4E004E1423 /* UICollectionView+Ext.swift in Sources */,
+				A7AD034A1D7FDB63004E1423 /* ReusableView.swift in Sources */,
 				A7AD033C1D7FCD40004E1423 /* MainVC.swift in Sources */,
 				A7AD03441D7FD3E2004E1423 /* DataService.swift in Sources */,
 				A7AD03421D7FD0DB004E1423 /* Taco.swift in Sources */,
