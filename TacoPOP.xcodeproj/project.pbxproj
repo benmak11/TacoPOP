@@ -15,6 +15,8 @@
 		A7AD033C1D7FCD40004E1423 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD033B1D7FCD40004E1423 /* MainVC.swift */; };
 		A7AD033E1D7FCF04004E1423 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD033D1D7FCF04004E1423 /* DropShadow.swift */; };
 		A7AD03401D7FCFE0004E1423 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD033F1D7FCFE0004E1423 /* HeaderView.swift */; };
+		A7AD03421D7FD0DB004E1423 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD03411D7FD0DB004E1423 /* Taco.swift */; };
+		A7AD03441D7FD3E2004E1423 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD03431D7FD3E2004E1423 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		A7AD033B1D7FCD40004E1423 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		A7AD033D1D7FCF04004E1423 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 		A7AD033F1D7FCFE0004E1423 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A7AD03411D7FD0DB004E1423 /* Taco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
+		A7AD03431D7FD3E2004E1423 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 		A7AD03371D7FCBF6004E1423 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A7AD03411D7FD0DB004E1423 /* Taco.swift */,
+				A7AD03431D7FD3E2004E1423 /* DataService.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 				A7AD03161D7FCB2C004E1423 /* AppDelegate.swift in Sources */,
 				A7AD033E1D7FCF04004E1423 /* DropShadow.swift in Sources */,
 				A7AD033C1D7FCD40004E1423 /* MainVC.swift in Sources */,
+				A7AD03441D7FD3E2004E1423 /* DataService.swift in Sources */,
+				A7AD03421D7FD0DB004E1423 /* Taco.swift in Sources */,
 				A7AD03401D7FCFE0004E1423 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
